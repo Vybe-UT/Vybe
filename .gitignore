@@ -1,6 +1,7 @@
 .env
 .vscode
 .idea
+*.db
 
 # Miscellaneous
 *.class
@@ -342,5 +343,3 @@ lib/generated_plugin_registrant.dart
 # Cython debug symbols
 
 # End of https://www.toptal.com/developers/gitignore/api/python,flask,flutter,linux
-
-
