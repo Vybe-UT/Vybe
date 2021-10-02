@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'signup_screen.dart';
+import 'chat_screen.dart';
 
 void main() => runApp(MainApp());
 
@@ -26,6 +27,7 @@ class MainApp extends StatelessWidget {
       routes: {
         '/': (context) => SignUpScreen(),
         '/welcome': (context) => WelcomeScreen(),
+        '/chat': (context) => ChatScreen(),
       },
     );
   }
