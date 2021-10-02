@@ -1,5 +1,6 @@
 .env
 .vscode
+.idea
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,flask,flutter,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,flask,flutter,linux
