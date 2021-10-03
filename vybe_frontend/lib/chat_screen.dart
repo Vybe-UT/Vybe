@@ -78,6 +78,7 @@ class _ChatBoxState extends State<ChatBox> {
   }
 
   void _sendMessage() {
+    print("sendMessage worked");
     if (_controller.text.isNotEmpty) {
       _channel.sink.add(_controller.text);
     }
